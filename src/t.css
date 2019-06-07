@@ -1,7 +1,8 @@
 /* should not report ids */
-/* should report !important */
+/* should report display-property-grouping */
 .test {
-	font-size: 1px !important;
+	vertical-align: auto;
+	display: block;
 }
 
 #header a {
