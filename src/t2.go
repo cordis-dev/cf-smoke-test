@@ -4,7 +4,7 @@
 
 // This file contains tests for the atomic checker.
 
-package atomic
+package testdata
 
 import "sync/atomic"
 
