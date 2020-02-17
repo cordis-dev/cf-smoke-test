@@ -1,10 +1,4 @@
-/* should not report ids */
-/* should report display-property-grouping */
+/* block-no-empty */
 .test {
-	vertical-align: auto;
-	display: block;
-}
 
-#header a {
-    color: black;
 }
