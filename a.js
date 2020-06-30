@@ -1,7 +1,7 @@
 //
 //
 
-if (!!test)
+if (test)
 {
   
 }
