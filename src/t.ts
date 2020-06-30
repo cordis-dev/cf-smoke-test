@@ -1,6 +1,6 @@
 // should not report trailing-comma
 // should report trailing-whitespace
-@NgModule({ 
+@NgModule({
   exports: [ RouterModule ],
   imports: [ RouterModule.forRoot(
     routes,
