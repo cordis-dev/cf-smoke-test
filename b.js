@@ -2,7 +2,7 @@
 // 
 //
 
-if (!!test)
+if (test)
 {
   
 }
