@@ -5,7 +5,7 @@ func f1() {
     }
   }
   if false {}
-  let i = 0
+  let i = 0;
 
   switch i {
   case 1: break
