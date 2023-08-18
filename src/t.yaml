@@ -1,3 +1,4 @@
-# should not report braces and others
-# should report trailing-spaces
-object: { key1: 4, key2: 8 } 
+# should *not report trailing-spaces
+# *should* report braces and brackets
+object1: { key1: 4, key2: 8  } 
+object2: [  1, 2, 3 ]
