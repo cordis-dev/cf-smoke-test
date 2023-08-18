@@ -1,4 +1,12 @@
 # should *not report trailing-spaces
 # *should* report braces and brackets
-object1: { key1: 4, key2: 8  } 
-object2: [  1, 2, 3 ]
+object1: { key1: 4, key2: 8  } # brackets - invalid
+object2: { key1: 4, key2: 8 } # brackets - valid
+object3: {} # brackets - valid
+object4: { } # brackets - valid
+object5: {  } # brackets - valid
+object6: [  1, 2, 3 ] # braces - invalid
+object7: [ 1, 2, 3 ] # braces - valid
+object8: [] # braces - valid
+object9: [ ] # braces - valid
+object10: [  ] # braces - valid
