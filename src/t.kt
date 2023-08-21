@@ -1,7 +1,7 @@
 // should report ReturnFromFinally
-// should not report EmptyIfBlock
+// should not report EmptyIfBlock, NoTrailingSpaces
 
-fun foo() {
+fun foo() { 
     try {
         if (true) {
         }
