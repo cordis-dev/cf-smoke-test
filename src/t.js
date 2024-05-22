@@ -3,5 +3,5 @@
 var a = someFunction();
 b = 10;
 
-while (foo) {
+while (!!foo) {
 }
