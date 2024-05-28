@@ -1,4 +1,4 @@
-while (!!foo1) {
+while (foo1) {
 }
 
 // should not report no-undef and no-unused-vars
@@ -12,7 +12,7 @@ module.exports = {
         // enable additional rules
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
-        "quotes": ["error", "double"],
+        "quotes": ["error", "single"],
         "semi": ["error", "always"],
 
         // override default options for rules from base configurations
@@ -28,5 +28,5 @@ module.exports = {
 var c = someFunction();
 d = 20;
 
-while (!!foo2) {
+while (foo2) {
 }
