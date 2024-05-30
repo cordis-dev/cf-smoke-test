@@ -1,6 +1,3 @@
-while (!!foo1_v2) {
-}
-
 // should not report no-undef and no-unused-vars
 // should report no-empty
 var a = someFunction();
