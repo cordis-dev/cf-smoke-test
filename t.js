@@ -1,4 +1,4 @@
-while (foo1_v2_fixed) {
+while (!!foo1) {
 }
 
 // should not report no-undef and no-unused-vars
@@ -28,5 +28,5 @@ module.exports = {
 var c = someFunction();
 d = 20;
 
-while (!!foo2_v2) {
+while (!!foo2) {
 }
