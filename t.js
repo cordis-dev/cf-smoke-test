@@ -1,4 +1,4 @@
-while (!!foo1_v2) {
+while (foo1_v2_fixed) {
 }
 
 // should not report no-undef and no-unused-vars
