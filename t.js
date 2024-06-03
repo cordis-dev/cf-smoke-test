@@ -28,5 +28,5 @@ module.exports = {
 var c = someFunction();
 d = 20;
 
-while (!!foo2) {
+while (foo2) {
 }
