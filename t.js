@@ -1,4 +1,4 @@
-while (foo1) {
+while (!!foo1) {
 }
 
 // should not report no-undef and no-unused-vars
