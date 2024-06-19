@@ -3,7 +3,8 @@ while (foo1) {
 
 // should not report no-undef and no-unused-vars
 // should report no-empty
-var a = someFunction();
+var b = someFunction();
+b = 11;
 b = 10;
 
 module.exports = {
