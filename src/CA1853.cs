@@ -6,7 +6,7 @@ namespace ConsoleApp6
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
             var key = "1";
-            if (dict.ContainsKey(key))
+            if (dict.ContainsKey(key)) // OK TO REPORT
             {
                 dict.Remove(key);
             }
@@ -16,10 +16,10 @@ namespace ConsoleApp6
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
             var key = "1";
-            if (dict.ContainsKey(key))
+            if (dict.ContainsKey(key)) // SHOULD NOT BE REPORTED
             {
+				dict.Remove(key);
                 System.Console.WriteLine("EXISTS");
-                dict.Remove(key);
             }
         }   
     }
