@@ -1,0 +1,2 @@
+public class OuterTypeFilenameInvalid2 {
+}
