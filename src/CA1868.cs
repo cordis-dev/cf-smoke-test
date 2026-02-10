@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class CS1868
+public class CA1868
 {
     public void Run(ISet<string> set)
     {
