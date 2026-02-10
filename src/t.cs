@@ -2,11 +2,8 @@ public class Test
 {
 	public bool Enabled
     {
-		
         get
-
         {
-
             return this.enabled;
         }
     }
@@ -15,7 +12,6 @@ public class Test
 	{
 		if (context.CanBeClaimed)
 		{
-			
 		}
 
 		return new EmptyResult();
