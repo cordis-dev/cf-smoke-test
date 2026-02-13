@@ -6,8 +6,7 @@ namespace StyleCopAnalyzers.CLI.tests
     {
         public void M(string arg)
         {
-            if (arg is null)
-                throw new ArgumentNullException(nameof(arg));
+            ArgumentNullException.ThrowIfNull(arg);
         }
     }
 }
