@@ -1,0 +1,16 @@
+name: smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        type: string
+
+permissions: {}
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello ${{ inputs.name }}"
+      - run: gh issue list
